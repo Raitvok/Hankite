@@ -47,21 +47,6 @@ $(function () {
        "Cart (0) items": {
             pol: "Koszyk (0 produktów)"
        },
-        EXTENDED: {
-            pol: "PRZEDŁUŻONY"
-        },
-       "TWO DAY": {
-            pol: "TYLKO NA"
-       },
-       ONLY: {
-            pol: "DWA DNI"
-       },
-       "25% OFF":{
-            pol: "RABATY"
-       },
-       "25%": {
-            pol: "25%"
-       },
        "New Items": {
          pol: "Nowości"
        },
