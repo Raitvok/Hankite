@@ -73,6 +73,7 @@ a:hover {
 .contact__news__request,
 .contact__news__cooperation {
     font-size: 12px;
+    margin-top: 5px;
 }
 
 .contact__news__request:before,
@@ -132,21 +133,18 @@ a:hover {
     background: url("../images/icons/cart.png") no-repeat;
 }
 
-.sell__navigation {
-    margin-bottom: 2px;
-}
-
 .sell__navigation.--wish,
 .sell__navigation.--order,
 .sell__navigation.--cart {
     padding-left: 30px;
     font-size: 12px;
     margin-left: 20px;
+    margin-bottom: 9px;
 }
 
 .sell__navigation.--wish {
     background: url("../images/icons/hurt.png") no-repeat;
-    margin: 0px;
+    margin-left: 0;
 }
 
 .sell__search {
