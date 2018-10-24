@@ -6,7 +6,7 @@ if (sessionStorage.getItem('language')) {
 }
 
 
-function attr() {
+document.getElementsByClassName("lanSelector")[0].onclick = function() {
     lang = document.getElementsByClassName("sell__location__flag")[0].getAttribute("data-value");
     if (lang === "en") {
         changeLanguage('pol');
