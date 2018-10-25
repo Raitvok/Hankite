@@ -1,5 +1,5 @@
 $(function () {
-    var dict= {
+    var dict = {
         "Request news": {
             pol: "Subskrybować"
         },
@@ -34,10 +34,10 @@ $(function () {
         Creative: {
             pol: "Creative"
         },
-        "Hi-tech" : {
+        "Hi-tech": {
             pol: "Hi-tech"
         },
-        "Wish List":{
+        "Wish List": {
             pol: "Lista Życzeń"
         },
         "Order Status": {
@@ -84,12 +84,35 @@ $(function () {
         }
     };
 
-    var trans= $('body').translate({lang: "en", t: dict});
+    var trans = $('body').translate({lang: "en", t: dict});
 
-    $('.lanSelector').click(function(event) {
-        var lang=$(this).attr('data-value');
-        trans.lang(lang);
-        console.log(lang);
-        event.preventDefault();
-    });
+    onLoad();
+
+    function onLoad() {
+        if(sessionStorage.getItem('language')){
+            changeLanguage(sessionStorage.getItem('language'));
+        }
+    }
+
+    function translatePage() {
+        var lang = sessionStorage.getItem('language');
+        if (lang === "en") {
+            changeLanguage('pol');
+        } else {
+            changeLanguage('en');
+        }
+    }
+
+    $('.lanSelector').click(function (event) {
+            event.preventDefault();
+            translatePage();
+        }
+    );
+
+    function changeLanguage(language) {
+        trans.lang(language);
+        document.getElementsByClassName("sell__location__flag")[0].setAttribute("src", "assets/images/icons/" + language + ".png");
+        document.getElementsByClassName("sales__promo")[0].setAttribute("src", "assets/images/contant/" + language + ".png");
+        sessionStorage.setItem('language', language);
+    }
 });

@@ -133,6 +133,11 @@ a:hover {
     background: url("../images/icons/cart.png") no-repeat;
 }
 
+
+.sell__navigation {
+    margin-bottom: 2px;
+}
+
 .sell__navigation.--wish,
 .sell__navigation.--order,
 .sell__navigation.--cart {
@@ -140,6 +145,7 @@ a:hover {
     font-size: 12px;
     margin-left: 20px;
     margin-bottom: 9px;
+
 }
 
 .sell__navigation.--wish {
@@ -235,6 +241,37 @@ a:hover {
 
 .part__item__image.--hitech {
     background: url("../images/contant/hitech.png") no-repeat;
+=======
+    background: url("../images/images/outdoor.png") no-repeat;
+}
+
+.part__item__image.--indoor {
+    background: url("../images/images/indoor.png") no-repeat;
+}
+
+.part__item__image.--people {
+    background: url("../images/images/people.png") no-repeat;
+}
+
+.part__item__image.--hobby {
+    background: url("../images/images/hobby.png") no-repeat;
+}
+
+.part__item__image.--gift {
+    background: url("../images/images/gift.png") no-repeat;
+}
+
+.part__item__image.--books {
+    background: url("../images/images/books.png") no-repeat;
+}
+
+.part__item__image.--creative {
+    background: url("../images/images/creative.png") no-repeat;
+}
+
+.part__item__image.--hitech {
+    background: url("../images/images/hitech.png") no-repeat;
+>>>>>>> 86c8b19... add files with langage
 }
 
 a.part__item:visited,
@@ -305,6 +342,17 @@ a.information__item:hover {
 
 .information__item__image.--blog {
     background: url("../images/contant/blog.png") no-repeat;
+=======
+    background: url("../images/images/newitems.png") no-repeat;
+}
+
+.information__item__image.--catalog {
+    background: url("../images/images/catalog.png") no-repeat;
+}
+
+.information__item__image.--blog {
+    background: url("../images/images/blog.png") no-repeat;
+>>>>>>> 86c8b19... add files with langage
 }
 
 .main__footer {
