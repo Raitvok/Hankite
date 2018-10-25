@@ -84,7 +84,14 @@ $(function () {
         }
     };
 
+
     var trans = $('body').translate({lang: "en", t: dict});
+
+    $('.lanSelector').click(function (event) {
+            event.preventDefault();
+            translatePage();
+        }
+    );
 
     onLoad();
 
@@ -103,11 +110,6 @@ $(function () {
         }
     }
 
-    $('.lanSelector').click(function (event) {
-            event.preventDefault();
-            translatePage();
-        }
-    );
 
     function changeLanguage(language) {
         trans.lang(language);
