@@ -133,7 +133,6 @@ a:hover {
     background: url("../images/icons/cart.png") no-repeat;
 }
 
-
 .sell__navigation {
     margin-bottom: 2px;
 }
@@ -145,7 +144,6 @@ a:hover {
     font-size: 12px;
     margin-left: 20px;
     margin-bottom: 9px;
-
 }
 
 .sell__navigation.--wish {
@@ -241,8 +239,6 @@ a:hover {
 
 .part__item__image.--hitech {
     background: url("../images/contant/hitech.png") no-repeat;
-=======
-    background: url("../images/images/outdoor.png") no-repeat;
 }
 
 .part__item__image.--indoor {
@@ -271,7 +267,6 @@ a:hover {
 
 .part__item__image.--hitech {
     background: url("../images/images/hitech.png") no-repeat;
->>>>>>> 86c8b19... add files with langage
 }
 
 a.part__item:visited,
@@ -342,8 +337,6 @@ a.information__item:hover {
 
 .information__item__image.--blog {
     background: url("../images/contant/blog.png") no-repeat;
-=======
-    background: url("../images/images/newitems.png") no-repeat;
 }
 
 .information__item__image.--catalog {
@@ -352,7 +345,6 @@ a.information__item:hover {
 
 .information__item__image.--blog {
     background: url("../images/images/blog.png") no-repeat;
->>>>>>> 86c8b19... add files with langage
 }
 
 .main__footer {

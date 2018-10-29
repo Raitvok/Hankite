@@ -191,6 +191,7 @@ a:hover {
     flex-flow: row nowrap;
     align-items: flex-end;
 }
+
 .main__navigation {
     height: 50px;
     width: 960px;
@@ -504,12 +505,12 @@ a.navigation__block__item:hover {
     width: 100px;
 }
 
-.arrow-right{
+.arrow-right {
     display: inline-block;
     height: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     background: url("../images/icons/arrow-right.png") 100% no-repeat;
-    padding: 40px 20px ;
+    padding: 40px 20px;
 }
 
 .carousel-right-wrapper .carousel-right-item .arrow-right.arrow-right-next {

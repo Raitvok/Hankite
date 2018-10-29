@@ -84,7 +84,6 @@ $(function () {
         }
     };
 
-
     var trans = $('body').translate({lang: "en", t: dict});
 
     $('.lanSelector').click(function (event) {
@@ -109,7 +108,6 @@ $(function () {
             changeLanguage('en');
         }
     }
-
 
     function changeLanguage(language) {
         trans.lang(language);
